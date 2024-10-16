@@ -1,10 +1,14 @@
 module github.com/joonix/log
 
-go 1.12
+go 1.22
 
 require (
-	github.com/golang/protobuf v1.5.2
-	github.com/konsorten/go-windows-terminal-sequences v1.0.3 // indirect
-	github.com/sirupsen/logrus v1.9.0
-	google.golang.org/genproto v0.0.0-20230216225411-c8e22ba71e44
+	github.com/golang/protobuf v1.5.4
+	github.com/sirupsen/logrus v1.9.3
+	google.golang.org/genproto v0.0.0-20241015192408-796eee8c2d53
+)
+
+require (
+	golang.org/x/sys v0.26.0 // indirect
+	google.golang.org/protobuf v1.35.1 // indirect
 )
