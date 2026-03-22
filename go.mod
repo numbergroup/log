@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/sirupsen/logrus v1.9.4
-	google.golang.org/genproto v0.0.0-20260311181403-84a4fc48630c
+	google.golang.org/genproto v0.0.0-20260319201613-d00831a3d3e7
 	google.golang.org/protobuf v1.36.11
 )
 
